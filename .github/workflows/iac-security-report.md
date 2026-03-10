@@ -2,6 +2,7 @@
 description: Weekly IaC security scan of Terraform, Bicep, Kubernetes manifests, Helm charts, and Dockerfiles. Reports findings grouped by IAM, Network Security, Data Protection, Container Security, and Logging as a GitHub issue.
 on:
   schedule: weekly
+  workflow_dispatch:
 permissions:
   contents: read
 safe-outputs:
