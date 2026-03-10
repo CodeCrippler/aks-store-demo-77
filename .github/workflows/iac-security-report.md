@@ -158,6 +158,5 @@ Scan the following paths for security misconfigurations:
 ```
 
    - If a category has no findings, write `No findings.` under that section.
-   - Skip the **Other** section entirely if it is empty.
    - If there are zero total findings across all categories, set the issue body to indicate a clean scan with "✅ No security misconfigurations detected across all scanned targets."
    - Use the scan date as today's date in `YYYY-MM-DD` format.
