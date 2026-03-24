@@ -54,6 +54,7 @@ By the end, your fork will have a fully autonomous DevSecOps pipeline:
 
 1. Go to the source repo on GitHub
 2. Click **Fork** → ensure **"Copy only main branch"** is NOT checked → **Create fork**
+   ![Copy all branches](./images/copy%20all%20branches.png)
 
 ### Enable GitHub Features
 
@@ -76,6 +77,7 @@ This is required for assigning Copilot to issues via workflows.
 2. **Token name**: `workshop-copilot-assign`
 3. **Repository access**: select your fork
 4. **Permissions** (all Read & Write): **Actions**, **Contents**, **Issues**, **Pull requests**
+   ![PAT Permissions](./images/pat%20permissions.png)
 5. Click **Generate token** → copy the token
 6. Go to your fork → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**
 7. Add two secrets with the same token value:
@@ -124,6 +126,7 @@ Go to the Issues tab on your fork → click the **Assignees** dropdown → **"Co
 **Format**: Demo 4 min → Hands-on 8 min
 
 **Catch-up**: If you fall behind, create a PR from `checkpoint/module-2` → `main` and merge it.
+![Merge to main](./images/merge%20to%20main.png)
 
 ### Step 2a: Create `.github/copilot-instructions.md`
 
@@ -391,9 +394,11 @@ Pick one of these issues (or create your own):
 
 #### Option: Add Input Validation (Node.js — Easy)
 
-1. Go to **Issues** → **New issue**
+1. Go to **Issues** → **New issue** (Blank issue)
 2. **Title**: `Add input validation to order-service POST /order endpoint`
 3. **Body**:
+
+![Blank Issue](./images/blank%20issue.png)
 
 ```markdown
 ## Description
