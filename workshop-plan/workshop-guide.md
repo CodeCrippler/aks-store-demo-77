@@ -77,6 +77,7 @@ This is required for assigning Copilot to issues via workflows.
 2. **Token name**: `workshop-copilot-assign`
 3. **Repository access**: select your fork
 4. **Permissions** (all Read & Write): **Actions**, **Contents**, **Issues**, **Pull requests**
+
    ![PAT Permissions](./images/pat%20permissions.png)
 5. Click **Generate token** → copy the token
 6. Go to your fork → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**
@@ -85,6 +86,7 @@ This is required for assigning Copilot to issues via workflows.
    - Name: `COPILOT_GITHUB_TOKEN` → paste the same token (needed for Module 7)
 
 ### Verify Copilot Coding Agent
+
 
 Go to the Issues tab on your fork → click the **Assignees** dropdown → **"Copilot"** should appear as an option.
 
@@ -126,6 +128,7 @@ Go to the Issues tab on your fork → click the **Assignees** dropdown → **"Co
 **Format**: Demo 4 min → Hands-on 8 min
 
 **Catch-up**: If you fall behind, create a PR from `checkpoint/module-2` → `main` and merge it.
+
 ![Merge to main](./images/merge%20to%20main.png)
 
 ### Step 2a: Create `.github/copilot-instructions.md`
